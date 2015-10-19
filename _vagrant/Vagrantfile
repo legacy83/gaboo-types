@@ -1,0 +1,41 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "gozma14/wp"
+  config.vm.hostname = "gaboo-plugins"
+  config.vm.network "private_network", ip: "192.168.27.14"
+  config.vm.synced_folder "..", "/vagrant"
+
+  ###############################################################
+  # gaboo synced folders
+  ###############################################################
+
+  config.vm.synced_folder "../gaboo/gaboo", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo"
+  config.vm.synced_folder "../gaboo/gaboo-core", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-core"
+  config.vm.synced_folder "../gaboo/gaboo-lock", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-lock"
+  config.vm.synced_folder "../gaboo/gaboo-piwik", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-piwik"
+
+  ###############################################################
+  # gaboo-plugins synced folders
+  ###############################################################
+
+  config.vm.synced_folder "../gaboo-plugins/gaboo-types", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types"
+
+  ###############################################################
+  # gaboo-plugins-niches synced folders
+  ###############################################################
+
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-bells", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-bells"
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-book-library", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-book-library"
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-portfolio", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-portfolio"
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-real-estate", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-real-estat"
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-restaurant", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-restaurant"
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-testimonials", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-testimonials"
+  config.vm.synced_folder "../gaboo-plugins-niche/gaboo-whistles", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-whistles"
+
+  ###############################################################
+  # cli/provision
+  ###############################################################
+
+  config.vm.provision "shell", path: "cli/provision.sh", privileged: false
+
+end
