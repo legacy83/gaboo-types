@@ -1,0 +1,3 @@
+[submodule "gaboo"]
+	path = gaboo
+	url = git@github.com:trsenna/gaboo.git
