@@ -1,3 +1,3 @@
-# Gaboo Plugins
+# Gaboo Types
 
-Plugins extend and expand the functionality of Gaboo & WordPress.
+Collection of custom post types (CPTs) that can be reused with Gaboo & WordPress.
