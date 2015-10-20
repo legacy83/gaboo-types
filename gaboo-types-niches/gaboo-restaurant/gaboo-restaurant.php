@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Gaboo Plugins \\ Niche \\ Restaurant
- * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-plugins
+ * Plugin Name: Gaboo Types \\ Restaurant
+ * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-types
  * Description: A restaurant, food and menu item manager for the current website.
  *
- * Version: 0.2.0
+ * Version: 0.1.0
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
  *

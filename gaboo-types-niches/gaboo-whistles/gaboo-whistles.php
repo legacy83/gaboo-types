@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Gaboo Plugins \\ Niche \\ Whistles
- * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-plugins
+ * Plugin Name: Gaboo Types \\ Whistles
+ * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-types
  * Description: Tabs, toggles, accordions, and all that jazz. Whistles and bells done right.
  *
- * Version: 0.2.0
+ * Version: 0.1.0
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
  *

@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Gaboo Plugins \\ Niche \\ Real Estate
- * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-plugins
+ * Plugin Name: Gaboo Types \\ Real Estate
+ * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-types
  * Description: A real estate and property management for the current website.
  *
- * Version: 0.2.0
+ * Version: 0.1.0
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
  *

@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: Gaboo Plugins \\ Niche \\ Book Library
- * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-plugins
+ * Plugin Name: Gaboo Types \\ Book Library
+ * Plugin URI: https://trsenna.repositoryhosting.com/trac/trsenna_gaboo-types
  * Description: Adds a book library to attractively display book details in single and archive views.
  *
- * Version: 0.2.0
+ * Version: 0.1.0
  * Author: Thiago Senna
  * Author URI: http://thremes.com.br
  *
