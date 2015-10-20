@@ -19,13 +19,18 @@ Vagrant.configure("2") do |config|
   ###############################################################
 
   config.vm.synced_folder "../gaboo-types", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types"
-  config.vm.synced_folder "../gaboo-types-bells", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-bells"
-  config.vm.synced_folder "../gaboo-types-book-library", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-book-library"
-  config.vm.synced_folder "../gaboo-types-portfolio", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-portfolio"
-  config.vm.synced_folder "../gaboo-types-real-estate", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-real-estat"
-  config.vm.synced_folder "../gaboo-types-restaurant", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-restaurant"
-  config.vm.synced_folder "../gaboo-types-testimonials", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-testimonials"
-  config.vm.synced_folder "../gaboo-types-whistles", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-whistles"
+
+  ###############################################################
+  # gaboo-types-niches synced folders
+  ###############################################################
+
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-bells", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-bells"
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-book-library", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-book-library"
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-portfolio", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-portfolio"
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-real-estate", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-real-estate"
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-restaurant", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-restaurant"
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-testimonials", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-testimonials"
+  config.vm.synced_folder "../gaboo-types-niches/gaboo-whistles", "/var/www/www.192.168.27.14.xip.io/public_html/wp-content/plugins/gaboo-types-whistles"
 
   ###############################################################
   # cli/provision
